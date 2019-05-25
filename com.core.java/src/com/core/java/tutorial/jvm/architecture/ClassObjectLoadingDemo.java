@@ -3,6 +3,11 @@ package com.core.java.tutorial.jvm.architecture;
 import com.core.java.tutorial.jvm.architecture.sampleClasses.Student;
 
 public class ClassObjectLoadingDemo {
+	
+	/*
+	 * for every loaded type only one class object will be created even though we
+	 * are using the class multiple times in our program
+	 */
 
 	public static void main(String[] args) {
 		
